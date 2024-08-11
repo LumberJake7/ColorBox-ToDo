@@ -1,0 +1,82 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #333;
+  color: white;
+}
+
+.App {
+  text-align: left;
+  padding: 20px;
+}
+
+.tabs {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #444;
+  padding: 10px 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.tabs button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  background-color: #666;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.tabs button:hover {
+  background-color: #777;
+}
+
+.tabs button.active {
+  background-color: #ccc;
+  color: black;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 0;
+  padding-bottom: 20px; /* Space below the title */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.form-container {
+  margin-bottom: 20px;
+  background-color: #222;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.color-box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 20px;
+  background-color: #444;
+  border: 2px solid #666;
+  border-radius: 8px;
+  margin-top: 20px;
+}

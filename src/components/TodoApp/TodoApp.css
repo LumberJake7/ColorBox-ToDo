@@ -1,0 +1,77 @@
+/* TodoApp.css */
+
+.todo-container {
+  width: 300px;
+  margin-top: 20px;
+  background-color: #000;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  border: 1px solid #ccc;
+}
+
+.todo-title {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.todo-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.todo-form input[type="text"] {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #555;
+  background-color: #444;
+  color: white;
+  font-size: 16px;
+}
+
+.todo-form button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #888;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.todo-form button:hover {
+  background-color: #aaa;
+}
+
+.todo-items {
+  margin-top: 20px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #333;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  color: white;
+  font-size: 16px;
+}
+
+.todo-item button {
+  background-color: #444;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.todo-item button:hover {
+  background-color: #666;
+}

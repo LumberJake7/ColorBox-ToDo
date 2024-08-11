@@ -1,0 +1,39 @@
+.new-box-form-container {
+  width: 300px;
+  margin-bottom: 20px;
+  padding: 30px;
+  background-color: #000000;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.new-box-form-container label {
+  display: block;
+  margin-bottom: 8px;
+  color: white;
+}
+
+.new-box-form-container input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #555;
+  border-radius: 4px;
+  background-color: #444;
+  color: white;
+}
+
+.new-box-form-container button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #888;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.new-box-form-container button:hover {
+  background-color: #aaa;
+}
